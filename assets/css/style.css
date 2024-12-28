@@ -556,13 +556,13 @@ header {
 .btn-main {
     color: #fff;
     font-family: Outfit;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 16px;
     position: relative;
     background: #00719f;
-    padding: 17px 0;
+    padding: 15px 0;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -570,7 +570,7 @@ header {
 .arrow {
     transform: rotate(-45deg);
 }
-.arrow-section {
+/* .arrow-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -583,19 +583,19 @@ header {
     top: 8px;
     z-index: 1;
     transition: all 0.3s ease;
-}
+} */
 .btn1 {
-    max-width: 210px;
+    max-width: 160px;
     width: 100%;
 }
-.btn-box-left,
+/* .btn-box-left,
 .btn-box-right {
     width: 42px;
     height: 42px;
     background: #00709c;
     transform: rotate(45deg);
-}
-.btn-box-left {
+} */
+/* .btn-box-left {
     position: absolute;
     left: -20px;
     top: 8px;
@@ -606,7 +606,7 @@ header {
     right: -20px;
     top: 8px;
     transition: all 0.3s ease;
-}
+} */
 .btn-main:hover .arrow-section {
     left: 90%;
     background: #ea0a10;
@@ -688,7 +688,7 @@ header {
     margin-top: 40px;
 }
 .about-sec-img-main img {
-    max-width: 100%;
+   width: 100%;
 }
 .about-sec-img1 {
     margin-top: 60px;
@@ -740,7 +740,7 @@ header {
     margin: 40px 0;
 }
 .btn-main.btn2 {
-    max-width: 200px;
+    max-width: 160px;
     width: 100%;
 }
 .btn2 {
@@ -1045,7 +1045,7 @@ header {
     color: #FFF;
 }
 .proin {
-    color: var(--8, #A8A9AD);
+    color: #dbdbdb;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -1514,10 +1514,10 @@ header {
     line-height: 64px;
 }
 .yerOfExperi p {
-    color: var(--8, #A8A9AD);
+    color: #545454;
     font-size: 18px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 20px;
 }
 #accordionExample {
     margin-top: 40px;
@@ -1697,7 +1697,7 @@ footer {
 .rights-reserved a {
     color: var(--5, #FFF);
     font-family: Outfit;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -3234,4 +3234,10 @@ textarea::placeholder {
     font-size: 45px;
     padding-top: 35px;
     padding-bottom: 15px;
+}
+.arrow-section i{
+    padding-left: 10px;
+}
+.rights-reserved p{
+    color: #fff;
 }
